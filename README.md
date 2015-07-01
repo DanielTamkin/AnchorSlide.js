@@ -1,5 +1,5 @@
 # AnchorSlide.js
-Provide a Sliding animation for Anchor Tags.
+a simple jQuery plugin to animate anchor tags.
 `$("#your-element").AnchorThis();`
 ### Settings
 speed(in Milliseconds):
