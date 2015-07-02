@@ -1,5 +1,5 @@
-/*AmchorThis.js - by Danieltamkin*/
-/*Provide a nice sliding animation when clicking on #Anchors.*/
+/*AnchorSlide.js - by Danieltamkin*/
+/*Provide a nice sliding animation when clicking on Anchors.*/
 (function( $ ) {
 	$.fn.AnchorSlide = function(data) {
 		$this = $(this);
