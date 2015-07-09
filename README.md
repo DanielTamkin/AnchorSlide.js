@@ -20,3 +20,11 @@ $("#your-element").AnchorThis(
   target: a.only-some-a-tags
 );
 ```
+
+_can be combined_
+```
+$("#your-element").AnchorThis(
+  speed: 100,
+  target: a.only-some-a-tags
+);
+```
