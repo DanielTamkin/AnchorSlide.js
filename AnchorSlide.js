@@ -1,9 +1,9 @@
 /*AnchorSlide.js - by Danieltamkin*/
 /*Provide a nice sliding animation when clicking on Anchors.*/
 (function( $ ) {
-	$.fn.AnchorSlide = function(data) {
+	$.fn.AnchorSlide = function($data) {
 		$this = $(this);
-		data(data);
+		data($data);
 		function data(data){
 			if(data == undefined){
 				$data = dataTemplate();

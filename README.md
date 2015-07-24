@@ -5,14 +5,14 @@ a simple jQuery plugin to animate anchor tags.
 speed(in Milliseconds):
 
 ```
-$("#your-element").AnchorThis(
+$("#your-element").AnchorThis({
   speed: 100
-);
+});
 ```
 target:
 
 ```
-$("#your-element").AnchorThis(
+$("#your-element").AnchorThis({
   target: a.only-some-a-tags
-);
+});
 ```
