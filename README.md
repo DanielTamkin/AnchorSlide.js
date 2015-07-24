@@ -14,7 +14,6 @@ $("#your-element").AnchorThis({
 target:
 
 ```
-<<<<<<< HEAD
 $("#your-element").AnchorThis({
   target: a.only-some-a-tags
 });
