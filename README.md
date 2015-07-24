@@ -1,5 +1,8 @@
 # AnchorSlide.js
 a simple jQuery plugin to animate anchor tags.
+a very simplistic demo can be found [here](http://danieltamkin.github.io/AnchorSlide.js/)
+
+
 `$("#your-element").AnchorThis();`
 ### Settings
 speed(in Milliseconds):
@@ -12,7 +15,17 @@ $("#your-element").AnchorThis({
 target:
 
 ```
+<<<<<<< HEAD
 $("#your-element").AnchorThis({
+  target: a.only-some-a-tags
+});
+
+```
+
+_can be combined_
+```
+$("#your-element").AnchorThis({
+  speed: 100,
   target: a.only-some-a-tags
 });
 ```
