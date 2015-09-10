@@ -28,3 +28,20 @@ section.body p{
   line-height:1.9;
   font-size:1.6em;
 }
+footer.site{
+  margin-top:1em;
+  padding:1em 0;
+  background:#373c49;
+  text-align:center;
+}
+footer.site h2{
+  margin-top:1.1em;
+  font-size:2.4em;
+}
+footer.site p{
+  margin:1em;
+  opacity:0.6;
+}
+footer.site .ghostb{
+  margin:0.6em;
+}
