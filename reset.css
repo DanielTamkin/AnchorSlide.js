@@ -28,7 +28,7 @@ body{/*font-family: 'Montserrat', sans-serif;*/}
 			-o-transition: all 100ms ease-in-out;
 			transition: all 100ms ease-in-out;
 		}
-			.ghostb:hover{background:transparent;color:#cd3c40;cursor:pointer;border:2px solid #cd3c40;
+			.ghostb:hover{background:#cd3c40;color:#222;cursor:pointer;border:2px solid #cd3c40;
 				-webkit-transition: all 100ms ease-in-out;
 				-moz-transition: all 100ms ease-in-out;
 				-ms-transition: all 100ms ease-in-out;
