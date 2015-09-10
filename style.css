@@ -4,12 +4,27 @@ body{
 header.hero{
   height:100%;
   width:100%;
-  background:#cd3c40;
+  background:#222;
   color:#fff;
   text-align:center;
+}
+header.hero h1{
   font-family: 'Lato', sans;
-  font-size:2.4em;
+  font-size:4.1em;
+}
+header.hero p{
+  margin:0.6em 0;
+  font-family:'Lato';
+  font-size:1.1em;
+}
+header.hero .ghostb{
+  margin-top:0.4em;
 }
 section.body header{
   text-align:center;
+}
+section.body p{
+  margin:1em 0;
+  line-height:1.9;
+  font-size:1.6em;
 }

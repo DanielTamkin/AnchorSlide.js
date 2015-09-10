@@ -19,16 +19,16 @@ body{/*font-family: 'Montserrat', sans-serif;*/}
 		.Container-Small{margin:0 auto;width:85%;max-width:680px;/*border-left:1px solid #111;border-right:1px solid #111;*/}
 		.Container-Tiny{margin:0 auto;width:85%;max-width:480px;/*border-left:1px solid #111;border-right:1px solid #111;*/}
 		.Container-FullWidth{margin:0 auto;width:95%;}
-		.ghostb{padding:4px 26px;box-sizing:border-box;border:4px solid #1c1e1f;border-radius:10px;display:inline-block;color:#1c1e1f;
+		.ghostb{padding:7px 26px;box-sizing:border-box;border:2px solid #cd3c40;border-radius:10px;display:inline-block;color:#cd3c40;
 			text-transform:;
-			font-family:'Lato-Bold';
+			font-family:'Lato';
 			-webkit-transition: all 100ms ease-in-out;
 			-moz-transition: all 100ms ease-in-out;
 			-ms-transition: all 100ms ease-in-out;
 			-o-transition: all 100ms ease-in-out;
 			transition: all 100ms ease-in-out;
 		}
-			.ghostb:hover{background:#fff;color:#fff;cursor:pointer;border:4px solid #fff;
+			.ghostb:hover{background:transparent;color:#cd3c40;cursor:pointer;border:2px solid #cd3c40;
 				-webkit-transition: all 100ms ease-in-out;
 				-moz-transition: all 100ms ease-in-out;
 				-ms-transition: all 100ms ease-in-out;
