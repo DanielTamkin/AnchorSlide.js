@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>AnchorSlide.js - by danieltamkin</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:900,700|Raleway|Permanent+Marker|Work+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="reset.css"/>
   <link rel="stylesheet" type="text/css" href="style.css"/>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -11,16 +12,21 @@
 </head>
 <body>
 <header class="hero">
-  <h1>AnchorSlide.js</h1>
+  <div class="center Container-Large">
+    <h1>AnchorSlide.js</h1>
+  </div>
 </header>
-<section class="body Container-Tiny">
+<section class="body Container-Small">
+  <header>
+    <div class="ghostb">Check it out</div>
+  </header>
 <p>Lo-fi chia stumptown cray Pinterest, ennui Austin Helvetica cred authentic jean shorts small batch ethical wayfarers. Post-ironic umami chia PBR&B normcore. Locavore food truck craft beer, fap narwhal kogi twee YOLO tattooed Kickstarter vegan gluten-free irony McSweeney's literally. Disrupt butcher mixtape, ugh selvage fingerstache you probably haven't heard of them ethical forage. Dreamcatcher Marfa Williamsburg post-ironic, YOLO Intelligentsia Helvetica retro disrupt Carles DIY. Tousled lumbersexual direct trade, pour-over 3 wolf moon drinking vinegar four dollar toast VHS chia. Pug authentic semiotics yr iPhone, biodiesel distillery Williamsburg meggings.</p>
 <p>Lo-fi chia stumptown cray Pinterest, ennui Austin Helvetica cred authentic jean shorts small batch ethical wayfarers. Post-ironic umami chia PBR&B normcore. Locavore food truck craft beer, fap narwhal kogi twee YOLO tattooed Kickstarter vegan gluten-free irony McSweeney's literally. Disrupt butcher mixtape, ugh selvage fingerstache you probably haven't heard of them ethical forage. Dreamcatcher Marfa Williamsburg post-ironic, YOLO Intelligentsia Helvetica retro disrupt Carles DIY. Tousled lumbersexual direct trade, pour-over 3 wolf moon drinking vinegar four dollar toast VHS chia. Pug authentic semiotics yr iPhone, biodiesel distillery Williamsburg meggings.</p>
 
 </section>
 <script type="text/javascript">
   $("section.hero header").AnchorSlide();
-  $("section header").centerThis();
+  $("header.hero .center").centerThis();
 </script>
 </body>
 </html>

@@ -1,3 +1,15 @@
-header.heo{
-  background:;
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+header.hero{
+  height:100%;
+  width:100%;
+  background:#cd3c40;
+  color:#fff;
+  text-align:center;
+  font-family: 'Lato', sans;
+  font-size:2.4em;
+}
+section.body header{
+  text-align:center;
 }
